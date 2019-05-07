@@ -12,3 +12,4 @@ src/web-ext-artifacts/*
 
 # JetBrains IDE files
 .idea
+/lib
