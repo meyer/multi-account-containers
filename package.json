@@ -42,6 +42,7 @@
     "lint:html": "htmllint *.html",
     "lint:js": "eslint .",
     "package": "rm -rf src/web-ext-artifacts && npm run build && mv src/web-ext-artifacts/firefox_multi-account_containers-*.zip addon.xpi",
+    "start": "web-ext run -s src/",
     "test": "npm run lint && mocha ./test/setup.js test/**/*.test.js",
     "test-watch": "mocha ./test/setup.js test/**/*.test.js --watch"
   }
